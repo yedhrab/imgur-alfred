@@ -4,8 +4,8 @@ from __future__ import annotations
 from pathlib import Path
 
 from alfred import AlfredClient
-from utils.images_upload_cli.upload import UPLOAD
-from utils.images_upload_cli.util import make_thumbnail
+from images_upload_cli.upload import UPLOAD
+from images_upload_cli.util import make_thumbnail
 
 
 def uplaod_to_imgur(imagepath: str | Path, hosting: str = "imgur", bbcode: bool = False, thumbnail: bool = False) -> str:
